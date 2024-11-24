@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="stylesheet" href="Projects.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <h2>Anas MAJED ALHARBI's</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>My Projects</h1>
+      <p>
+        Explore a curated list of my most impactful web, mobile, and AI
+        projects.
+      </p>
+      <a href="#projects-list" class="btn">View Projects</a>
+    </section>
+
+    <!-- Projects Section -->
+    <main>
+      <section class="projects">
+        <div class="project-filter">
+          <button onclick="filterProjects('all')">All</button>
+          <button onclick="filterProjects('web')">Web Development</button>
+          <button onclick="filterProjects('mobile')">Mobile Apps</button>
+          <button onclick="filterProjects('other')">Other</button>
+        </div>
+        <div id="projects-list">
+          <div class="project web">
+            <h2>Responsive Portfolio</h2>
+            <p>
+              A modern, responsive portfolio website built with HTML, CSS, and
+              JavaScript to highlight skills and projects.
+            </p>
+            <a href="https://github.com/johndoe/portfolio" target="_blank"
+              >View on GitHub</a
+            >
+          </div>
+          <div class="project web">
+            <h2>E-commerce Platform</h2>
+            <p>
+              A feature-rich e-commerce website using React and Node.js,
+              complete with secure payment integration.
+            </p>
+            <a href="https://github.com/johndoe/ecommerce" target="_blank"
+              >View on GitHub</a
+            >
+          </div>
+          <div class="project mobile">
+            <h2>Fitness Tracker</h2>
+            <p>
+              A cross-platform mobile app for tracking fitness goals and
+              progress, built with Flutter and Dart.
+            </p>
+            <a href="https://github.com/johndoe/fitness-tracker" target="_blank"
+              >View on GitHub</a
+            >
+          </div>
+          <div class="project other">
+            <h2>AI Chatbot</h2>
+            <p>
+              A smart chatbot powered by Python and GPT-3, designed for seamless
+              user interactions and support automation.
+            </p>
+            <a href="https://github.com/johndoe/chatbot" target="_blank"
+              >View on GitHub</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Anas MAJED ALHARBI's All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
